@@ -2,7 +2,8 @@ import { Link } from "react-router-dom"
 
 const LoginPage = () => {
       return (
-            <div className="w-2xl space-y-7 p-6 mx-auto pb-8 bg-white  rounded-lg text-black">
+            <div className="flex items-center justify-center h-full">
+                <div className="w-2xl space-y-7 p-6 mx-auto pb-8 bg-white  rounded-lg text-black h-[70%]">
                   <div className="text-center">
                         <h1 className="text-[#9B4DFF] text-center !text-[32px] font-medium">Log In</h1>
                         <p>Hi, Welcome back</p>
@@ -27,6 +28,7 @@ const LoginPage = () => {
                         </div>
                   </form>
 
+            </div>
             </div>
       )
 }
