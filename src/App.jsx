@@ -25,7 +25,7 @@ function App() {
           }
         ]
       },
-      { path: "", element: <Navigate to="/auth/login" />  },
+      { path: "", element: <Navigate to="/auth/login" /> },
       { path: "*", element: <div>404 page not found it seems you are lost</div> },
     ]
   )
