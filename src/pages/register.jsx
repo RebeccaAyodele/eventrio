@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Regsiter = () => {
       return (
-        <div className="flex items-center justify-center h-full">
+        <div className="flex items-center justify-center h-screen">
             <div className="w-2xl p-6 mx-auto pb-8 bg-white rounded-lg text-black">
                   <h1 className="text-[#9B4DFF] mb-4 text-center !text-[32px] font-medium">Create Account</h1>
                   <form onSubmit={() => alert("Rest..")} className="mx-auto flex flex-col gap-4 px-3">
@@ -34,7 +34,7 @@ const Regsiter = () => {
                               <div>
                                     <img src="/google.svg" alt="" />
                               </div>
-                              <p className="text-sm">Already have an account? <span className="cursor-pointer hover:underline"><Link to={"/auth/dashboard"}>Login<Link /></Link></span></p>
+                              <p className="text-sm">Already have an account? <span className="cursor-pointer hover:underline"><Link to={"/auth/event_register"}>Login<Link /></Link></span></p>
                         </div>
                   </form>
 

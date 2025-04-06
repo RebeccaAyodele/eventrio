@@ -3,6 +3,7 @@ import Auth from './layouts/Auth'
 import LoginPage from './pages/login'
 import Regsiter from './pages/register'
 import Dashboard from './pages/Dashboard'
+import EventRegister from './pages/EventRegister'
 
 function App() {
   const _route = createBrowserRouter(
@@ -20,9 +21,13 @@ function App() {
             element: <Regsiter />
           },
           {
+            path: "event_register",
+            element: <EventRegister />
+          },
+          {
             path: "dashboard",
             element: <Dashboard />
-          }
+          },
         ]
       },
       { path: "", element: <Navigate to="/auth/login" />  },
