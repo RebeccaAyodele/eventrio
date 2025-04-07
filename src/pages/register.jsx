@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Regsiter = () => {
       return (
-            <div className="w-2xl p-6 mx-auto pb-8 bg-white  rounded-lg text-black">
+            <div className="w-[90%] max-w-[30rem] p-6 mx-auto pb-8 bg-white  rounded-lg text-black">
                   <h1 className="text-[#9B4DFF] mb-4 text-center !text-[32px] font-medium">Create Account</h1>
                   <form onSubmit={() => alert("Rest..")} className="mx-auto flex flex-col gap-4 px-3">
                         <label htmlFor="" className="space-y-1">
