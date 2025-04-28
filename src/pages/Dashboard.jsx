@@ -1,9 +1,16 @@
-import React from 'react'
+import { Outlet, Link } from 'react-router-dom'
 
-const Dashboard = () => {
+const DashboardLayout = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+      {/* <nav>
+        <Link to="/dashboard">Dashboard</Link> |{" "}
+        <Link to="/dashboard/create">Create Event</Link> |{" "}
+        <Link to="/dashboard/attendees">Attendees</Link>
+      </nav> */}
+      <Outlet />
+    </div>
   )
 }
 
-export default Dashboard
+export default DashboardLayout
