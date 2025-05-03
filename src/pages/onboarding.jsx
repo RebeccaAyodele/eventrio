@@ -52,7 +52,6 @@ const Onboarding = () => {
         {/* Left Side: Flyer + Form */}
         <div className="formAndFlyerWrapper">
           <div className="flyerUpload">
-            <span>Upload Event Flyer</span>
             <div className="event_flyer">
               <div className="eventflyer_image" />
             </div>
@@ -76,7 +75,7 @@ const Onboarding = () => {
                 <label htmlFor="eventDescription">Description</label>
                 <textarea id="eventDescription" placeholder="Event Description" required></textarea>
               </div>
-              <button type="submit" className="createEventBtn">Create Event</button>
+              <button type="submit" className="createEventBtn">Register for Event</button>
             </form>
           </div>
         </div>

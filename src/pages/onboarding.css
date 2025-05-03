@@ -127,7 +127,7 @@
 }
 
 .inputGroup label {
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin-bottom: 0.4rem;
   display: block;
 }
@@ -135,9 +135,10 @@
 .inputGroup input {
   width: 100%;
   padding: 0.8rem;
-  border: 1px solid #ccc;
   border-radius: 6px;
   margin-top: 0.2rem;
+  background: linear-gradient(to right, #1e1e2f, #29293d);
+  border: 1px solid #ebd9fc;
 }
 
 .signinNow {

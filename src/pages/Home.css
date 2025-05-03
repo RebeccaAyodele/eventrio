@@ -42,7 +42,7 @@ a:hover {
     overflow: hidden;
 } 
 
-.home .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,19 +51,19 @@ a:hover {
     position: relative;
 }
 
-.home .logo {
+.logo {
     font-size: 2rem;
     color: #F5D0C5;
 }
 
-.home .navLinks {
+.navLinks {
     list-style: none;
     display: flex;
     gap: 4rem;
     align-items: center;
 }
 
-.home .link {
+.link {
     color: #D3D3D3;
     text-decoration: none;
     transition: color 0.3s;
@@ -73,7 +73,7 @@ a:hover {
     color: #8a2be2;
 }
 
-.home .signinBtn {
+.signinBtn {
     background-color: #b362ff;
     border: none;
     padding: 0.6rem 1.2rem;
